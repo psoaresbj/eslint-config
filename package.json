@@ -1,13 +1,12 @@
 {
   "name": "@psoares/eslint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "Apache-2.0",
-  "main": "default.js",
+  "main": "index.js",
   "files": [
     "README.md",
-    "default.js",
     "node.js",
-    "web.js",
+    "index.js",
     "shared"
   ],
   "engines": {

@@ -1,0 +1,43 @@
+{
+  "name": "@psoares/eslint-config",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "main": "default.js",
+  "files": [
+    "README.md",
+    "default.js",
+    "node.js",
+    "web.js",
+    "shared"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "@babel/eslint-parser": "^7.12.17",
+    "@babel/eslint-plugin": "^7.12.13",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-sort-class-members": "^1.9.0",
+    "eslint-plugin-sort-imports-es6-autofix": "^0.5.0"
+  },
+  "peerDependencies": {
+    "@babel/core": ">=7.12.0",
+    "eslint": ">= 7",
+    "prettier": ">= 2.4"
+  },
+  "peerDependenciesMeta": {
+    "@babel/core": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "eslint": "^7.31.0",
+    "jest": "^26.6.3",
+    "prettier": "^2.4.1"
+  }
+}

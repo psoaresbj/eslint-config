@@ -1,14 +1,10 @@
 {
   "name": "@psoares/eslint-config",
-  "version": "1.0.3",
+  "repository": "psoaresbj/eslint-config",
+  "version": "1.0.4",
   "license": "Apache-2.0",
-  "main": "index.js",
-  "files": [
-    "README.md",
-    "node.js",
-    "index.js",
-    "shared"
-  ],
+  "main": "src",
+  "files": ["src"],
   "engines": {
     "node": ">=14.0.0"
   },

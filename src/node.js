@@ -1,6 +1,6 @@
 module.exports = {
   env: { node: true },
-  extends: ['./shared/core.js', './shared/prettier.js'],
+  extends: ['./core.js', './prettier.js'],
   rules: {
     'no-buffer-constructor': 'warn'
   }

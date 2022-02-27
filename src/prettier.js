@@ -6,8 +6,8 @@ module.exports = {
       'error',
       {
         arrowParens: 'avoid',
-        bracketSameLine: true,
-        printWidth: 100,
+        bracketSameLine: false,
+        printWidth: 120,
         semi: true,
         singleQuote: true,
         trailingComma: 'none'

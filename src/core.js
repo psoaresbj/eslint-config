@@ -29,14 +29,7 @@ module.exports = {
     requireConfigFile: false,
     sourceType: 'module'
   },
-  plugins: [
-    'import',
-    'react',
-    'react-hooks',
-    'sort-class-members',
-    'sort-imports-es6-autofix',
-    'prettier'
-  ],
+  plugins: ['import', 'react', 'react-hooks', 'sort-class-members', 'sort-imports-es6-autofix', 'prettier'],
   rules: {
     'arrow-parens': ['error', 'as-needed'],
     'comma-dangle': ['error', 'never'],

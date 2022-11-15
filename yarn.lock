@@ -1567,6 +1567,14 @@ eslint-plugin-sort-imports-es6-autofix@^0.6.0:
   resolved "https://registry.yarnpkg.com/eslint-plugin-sort-imports-es6-autofix/-/eslint-plugin-sort-imports-es6-autofix-0.6.0.tgz#b8cd8639d7a54cefce6b17898b102fd5ec31e52b"
   integrity sha512-2NVaBGF9NN+727Fyq+jJYihdIeegjXeUUrZED9Q8FVB8MsV3YQEyXG96GVnXqWt0pmn7xfCZOZf3uKnIhBrfeQ==
 
+eslint-plugin-sort-imports-requires@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-sort-imports-requires/-/eslint-plugin-sort-imports-requires-1.0.2.tgz#ba04fd40cd71da92d5d132b56f51da04916061d3"
+  integrity sha512-NVBvldKgVRrVQz+DFALAwcDUHUBF2fuZhWPrd7SylZvVeTyryaDGrL8lmm+xzaEw7tWz1HRLnk7REuVPwdvqZg==
+  dependencies:
+    eslint-utils "^3.0.0"
+    once "^1.4.0"
+
 eslint-plugin-sort-keys-fix@^1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/eslint-plugin-sort-keys-fix/-/eslint-plugin-sort-keys-fix-1.1.2.tgz#00c8b5791612ec32162b8d7a0563e9c6eb27ec59"
@@ -2917,7 +2925,7 @@ object.values@^1.1.5:
     define-properties "^1.1.3"
     es-abstract "^1.19.1"
 
-once@^1.3.0:
+once@^1.3.0, once@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/once/-/once-1.4.0.tgz#583b1aa775961d4b113ac17d9c50baef9dd76bd1"
   integrity sha1-WDsap3WWHUsROsF9nFC6753Xa9E=

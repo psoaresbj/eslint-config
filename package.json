@@ -1,7 +1,7 @@
 {
   "name": "@psoares/eslint-config",
   "repository": "psoaresbj/eslint-config",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "license": "MIT",
   "main": "src",
   "files": [
@@ -20,6 +20,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-sort-class-members": "^1.15.2",
     "eslint-plugin-sort-imports-es6-autofix": "^0.6.0",
+    "eslint-plugin-sort-imports-requires": "^1.0.2",
     "eslint-plugin-sort-keys-fix": "^1.1.2"
   },
   "peerDependencies": {

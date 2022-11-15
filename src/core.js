@@ -29,15 +29,7 @@ module.exports = {
     requireConfigFile: false,
     sourceType: 'module'
   },
-  plugins: [
-    'import',
-    'react',
-    'react-hooks',
-    'sort-class-members',
-    'sort-imports-es6-autofix',
-    'sort-keys-fix',
-    'prettier'
-  ],
+  plugins: ['import', 'prettier'],
   rules: {
     'arrow-parens': ['error', 'as-needed'],
     'comma-dangle': ['error', 'never'],
@@ -138,16 +130,6 @@ module.exports = {
     radix: 'error',
     'require-atomic-updates': 'off',
     'require-await': 'error',
-    'sort-imports-es6-autofix/sort-imports-es6': [
-      'error',
-      {
-        ignoreCase: false,
-        ignoreMemberSort: false,
-        memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single']
-      }
-    ],
-    'sort-keys': ['error', 'asc', { natural: true }],
-    'sort-keys-fix/sort-keys-fix': ['error', 'asc', { natural: true }],
     'spaced-comment': 'error',
     'valid-jsdoc': 'error',
     'vars-on-top': 'error'

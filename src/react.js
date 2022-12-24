@@ -1,4 +1,9 @@
 module.exports = {
+  overrides: [
+    {
+      files: ['*.jsx', '*.js']
+    }
+  ],
   parserOptions: { ecmaFeatures: { jsx: true } },
   plugins: ['react', 'react-hooks'],
   rules: {

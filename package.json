@@ -1,7 +1,7 @@
 {
   "name": "@psoares/eslint-config",
   "repository": "psoaresbj/eslint-config",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "license": "MIT",
   "main": "index.js",
   "files": [

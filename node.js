@@ -1,6 +1,6 @@
 module.exports = {
   env: { node: true },
-  extends: ['./core.js', './sort.js', './prettier.js'],
+  extends: ['./src/core.js', './src/sort.js', './src/prettier.js'],
   rules: {
     'no-buffer-constructor': 'warn'
   }

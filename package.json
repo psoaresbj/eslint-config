@@ -1,13 +1,14 @@
 {
   "name": "@psoares/eslint-config",
   "repository": "psoaresbj/eslint-config",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "license": "MIT",
   "main": "index.js",
   "files": [
     "index.js",
     "node.js",
-    "typescript"
+    "typescript.js",
+    "src"
   ],
   "engines": {
     "node": ">=16.0.0"

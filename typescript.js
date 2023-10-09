@@ -1,4 +1,3 @@
 module.exports = {
-  env: { browser: true, commonjs: true },
-  extends: ['./src/core.js', './src/sorts.js', './src/react.js', './src/prettier.js', './src/typescript']
+  extends: ['./common.js', './react.js', './src/typescript.js']
 };

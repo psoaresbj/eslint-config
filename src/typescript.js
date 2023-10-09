@@ -1,6 +1,9 @@
 /* eslint-disable sort-keys-fix/sort-keys-fix */
 module.exports = {
   extends: ['plugin:import/typescript'],
+  globals: {
+    JSX: 'readonly'
+  },
   overrides: [
     {
       files: ['*.jsx', '*.js', '*.tsx', '*.ts', '*.d.ts'],

@@ -22,7 +22,6 @@ module.exports = {
     'react/jsx-no-duplicate-props': 'error',
     'react/jsx-no-undef': 'error',
     'react/jsx-props-no-spreading': 'off',
-    'react/jsx-sort-default-props': 'error',
     'react/jsx-sort-props': 'error',
     'react/jsx-uses-react': 'error',
     'react/jsx-uses-vars': 'error',
@@ -37,6 +36,7 @@ module.exports = {
     'react/react-in-jsx-scope': 'error',
     'react/require-default-props': 'warn',
     'react/self-closing-comp': 'error',
+    'react/sort-default-props': 'error',
     'react/sort-prop-types': 'error',
     'react-hooks/exhaustive-deps': 0,
     'react-hooks/rules-of-hooks': 'error'

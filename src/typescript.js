@@ -10,7 +10,7 @@ module.exports = {
       parser: '@typescript-eslint/parser'
     }
   ],
-  parserOptions: { ecmaFeatures: { tsx: true } },
+  parserOptions: { ecmaFeatures: { tsx: true }, project: true },
   plugins: ['@typescript-eslint'],
   rules: {
     'no-dupe-class-members': 'off',
